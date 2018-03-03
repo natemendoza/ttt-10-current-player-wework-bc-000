@@ -16,7 +16,7 @@ def current_player (board)
   result ? "X" : "O"
 end
 
-# result ? return "X" : return "O"
+# result.odd? ? return "X" : return "O"
 
 #   if result.odd?
 #    return "X"
