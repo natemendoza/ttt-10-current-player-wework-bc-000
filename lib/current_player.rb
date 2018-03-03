@@ -12,14 +12,12 @@ def current_player (board)
   result = turn_count (board)
   #result is using board array values 0-8 so I'm adding +1
   result += 1
-  if result.odd?
-    return "X"
-  else
-    return "O"
-  end
+  result = result.odd?
+  result ? return "X" : return "O"
 end
 
 # result ? return "X" : return "O"
+
 #   if result.odd?
 #    return "X"
 #  else
