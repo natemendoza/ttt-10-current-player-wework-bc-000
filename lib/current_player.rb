@@ -16,7 +16,8 @@ def current_player (board)
   result ? "X" : "O"
 end
 
-# result.odd? ? return "X" : return "O"
+# result.odd? ? return "X" : return "O" - possible to combine this into 1 line?
+
 
 #   if result.odd?
 #    return "X"
