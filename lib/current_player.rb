@@ -16,7 +16,6 @@ def current_player (board)
    end
   end
   return turncount
-  
   if turncount !% 2 == 1
     return "X"
   else
