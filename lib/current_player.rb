@@ -13,6 +13,5 @@ def current_player (board)
   #result is using board array values 0-8 so I'm adding +1
   result += 1
   if result.odd? ? return "X" : return "O"
-  end
 end
 
