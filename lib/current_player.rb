@@ -9,7 +9,7 @@ def turn_count (board)
 end
 
 def current_player (board)
-  result.size = turn_count (board)
+  result = turn_count (board)
   if result % 2 == 0
     return "X"
   else
