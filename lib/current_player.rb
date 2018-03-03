@@ -9,7 +9,13 @@ def turn_count (board)
 end
 
 def current_player (board)
-  
+  turncount = 0
+  board.each do |spaces|
+   if spaces != " "
+     turncount += 1
+   end
+  end
+  return turncount
   
   if turncount !% 2 == 1
     return "X"
