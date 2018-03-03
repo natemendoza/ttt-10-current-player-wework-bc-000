@@ -19,3 +19,5 @@ def current_player (board)
   end
 end
 
+result.odd? ? return "X" : return "O"
+
