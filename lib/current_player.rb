@@ -8,8 +8,6 @@ def turn_count (board)
   return turncount
 end
 
-
-
 def current_player (board)
   
   
